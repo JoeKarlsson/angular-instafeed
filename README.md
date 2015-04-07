@@ -1,4 +1,4 @@
-# Presonal Instagram Angular.js Feed
+# Personal Instagram Angular.js Feed
 
 ## about 
 
@@ -6,6 +6,7 @@ Basic example usage of factory method to make a request to the instagram api to 
 
 #### Usage
 In `js/instagram/application.js` configure your `client_id`
+
 In `js/instagram/application.js` configure your `user_id`
 
 
