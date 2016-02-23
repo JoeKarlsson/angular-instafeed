@@ -1,15 +1,13 @@
-# Instafeed
+# Angular Instafeed
 ## Personal Instagram Angular.js Feed
 
+Made by Joe Carlson - 2016
 See more at www.callmejoe.net
-Made by Joe Carlson 2016
 
-## about
 Basic example usage of factory method to make a request to the instagram api to get a certian amount of images with an Angular.js switchable grid.
 
-##Reviews
+### Reviews
 "Oh yes. Absolutely spot on ... works like a charm... The cleanest plugin i've ever worked with - clean, straightforward and works out of box." - tenzopro
-
 
 ## Installing
 
@@ -25,10 +23,8 @@ Basic example usage of factory method to make a request to the instagram api to 
 * Once you have these, navigate to ```js/instagram/application.js``` and configure your ```client_id``` and your ```user_id```
 * Run the app anyway your usually run your web apps. Or open ```index.html`` in the browser.
 
-### Tech
-
-Instafeed uses a number of open source projects to work properly:
-
+## Tech
+Instafeed uses a number of open source projects:
 * [AngularJS] - HTML enhanced for web apps!
 * [Twitter Bootstrap] - great UI boilerplate for modern web apps
 * [Gulp] - the streaming build system
@@ -41,6 +37,8 @@ Instafeed uses a number of open source projects to work properly:
 3. Commit your changes: ```git commit -am 'Add some feature'```
 4. Push to the branch: ````git push origin my-new-feature````
 5. Submit a pull request :D
+
+See more at www.callmejoe.net
 
 ##License
 The MIT License (MIT)
