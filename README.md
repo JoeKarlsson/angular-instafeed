@@ -17,8 +17,13 @@ Basic example usage of factory method to make a request to the instagram api to 
 
 * Download and unpack [Angular Instafeed](https://github.com/JoeKarlsson1/Angular-Instafeed). Or alternatively checkout from source:
 
-    ```bash $ git clone https://github.com/JoeKarlsson1/Angular-Instafeed```
-    ```bash $ cd angular-instafeed```
+    ```bash
+    $ git clone https://github.com/JoeKarlsson1/Angular-Instafeed
+    ```
+    
+    ```bash 
+    $ cd angular-instafeed
+    ```
 
 * Next, inside the project, you need to [register as a Instagram Developer}(https://instagram.com/developer/clients/manage/) to get your Client ID
 
