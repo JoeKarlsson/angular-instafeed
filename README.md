@@ -11,7 +11,7 @@ Basic example usage of factory method to make a request to the instagram api to 
 ### Reviews
 "Oh yes. Absolutely spot on ... works like a charm... The cleanest plugin i've ever worked with - clean, straightforward and works out of box." - tenzopro
 
-![Angular Instafeed](https://www.callmejoe.net/wp-content/uploads/2015/05/instfeed-demo.jpg)
+![instfeed-demo](https://cloud.githubusercontent.com/assets/4650739/13266964/ac6deb2e-da1e-11e5-9e80-773c19327caa.jpg)
 
 ## Installing
 
