@@ -6,15 +6,19 @@ See more at www.callmejoe.net
 
 Basic example usage of factory method to make a request to the instagram api to get a certian amount of images with an Angular.js switchable grid.
 
+[Check out a live demo of this plugin here](https://www.callmejoe.net/portfolio/instafeed-angular-js-instagram-feed/)
+
 ### Reviews
 "Oh yes. Absolutely spot on ... works like a charm... The cleanest plugin i've ever worked with - clean, straightforward and works out of box." - tenzopro
+
+![Angular Instafeed](https://www.callmejoe.net/wp-content/uploads/2015/05/instfeed-demo.jpg)
 
 ## Installing
 
 * Download and unpack [Angular Instafeed](https://github.com/JoeKarlsson1/Angular-Instafeed). Or alternatively checkout from source:
 
-    git clone https://github.com/JoeKarlsson1/Angular-Instafeed
-    cd angular-instafeed
+    ```bash $ git clone https://github.com/JoeKarlsson1/Angular-Instafeed```
+    ```bash $ cd angular-instafeed```
 
 * Next, inside the project, you need to [register as a Instagram Developer}(https://instagram.com/developer/clients/manage/) to get your Client ID
 
