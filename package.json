@@ -1,0 +1,31 @@
+{
+  "name": "angular-instafeed",
+  "version": "1.0.1",
+  "description": "Grid that displays your most recent Instagram photos.",
+  "main": "public/js/instafeed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeKarlsson1/Angular-Instafeed.git"
+  },
+  "keywords": [
+    "Instagram",
+    "Angular",
+    "Insta",
+    "photos"
+  ],
+  "author": "Joe Carlson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoeKarlsson1/Angular-Instafeed/issues"
+  },
+  "homepage": "https://github.com/JoeKarlsson1/Angular-Instafeed#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-connect": "^2.3.1"
+  },
+  "dependencies": {}
+}
