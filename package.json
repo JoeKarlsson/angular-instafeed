@@ -23,9 +23,6 @@
   },
   "homepage": "https://github.com/JoeKarlsson1/Angular-Instafeed#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-browserify": "^0.5.1",
-    "gulp-connect": "^2.3.1"
   },
   "dependencies": {}
 }
