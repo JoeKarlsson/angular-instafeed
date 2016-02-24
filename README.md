@@ -31,15 +31,13 @@ Basic example usage of factory method to make a request to the instagram api to 
 * You will also need to get your user ID go run this program. To get your User ID, go to [this site](http://jelled.com/instagram/lookup-user-id) and enter your Instagram user name to get your user ID.
   *  Note: Your User ID is different than your User Name. Your User ID is a string that looks like ```12345678```
 * Once you have these, navigate to ```js/instagram/application.js``` and configure your ```client_id``` and your ```user_id```
-* Run the app anyway your usually run your web apps. Or open ```index.html`` in the browser.
+* Run the app anyway your usually run your web apps. Or open ```index.html``` in the browser.
 
 ## Tech
 Instafeed uses a number of open source projects:
 * [AngularJS] - HTML enhanced for web apps!
 * [Twitter Bootstrap] - great UI boilerplate for modern web apps
 * [Gulp] - the streaming build system
-* [keymaster.js] - awesome keyboard handler lib by [@thomasfuchs]
-* [jQuery] - duh
 
 ##Contributing
 1. Fork it!
