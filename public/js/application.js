@@ -1,9 +1,9 @@
 (function() {
   //Place your own Instagram client_id below. Go to https://instagram.com/developer/clients/manage/ and register your app to get a client ID
-  var client_id = '451cf9fc4a0a44379d699e4ca48d58fb';
+  var client_id = '[yourClientID]';
 
   //To get your user ID go to http://jelled.com/instagram/lookup-user-id and enter your Instagram user name to get your user ID
-  var user_id = '464793431';
+  var user_id = '[yourUserID]';
 
   var app = angular.module('instafeed', []);
 
