@@ -9,6 +9,12 @@ Basic example usage of factory method to make a request to the instagram api to 
 
 [Check out a live demo of this plugin here](https://www.callmejoe.net/portfolio/instafeed-angular-js-instagram-feed/)
 
+**Note:** This is a front-end NPM package, so you will need to use build tools in order to get this up and running on your application. Lucky for you, I setup a demo GitHub repository that will get you up and running with Angular Instafeed quickly.
+
+You can check out my Angular Instafeed build demo here:
+
+[Anngular Instafeed Demo](https://github.com/JoeKarlsson1/Angular-Instafeed/tree/npm_example)
+
 ### Reviews
 "Oh yes. Absolutely spot on ... works like a charm... The cleanest plugin i've ever worked with - clean, straightforward and works out of box." - tenzopro
 
@@ -16,28 +22,36 @@ Basic example usage of factory method to make a request to the instagram api to 
 
 ## Installing
 
-* Download and unpack [Angular Instafeed](https://github.com/JoeKarlsson1/Angular-Instafeed). Or alternatively checkout from source:
+* In your project directory
 
     ```bash
-    $ git clone https://github.com/JoeKarlsson1/Angular-Instafeed
+    $ npm i angular-instafeed --save
     ```
 
-    ```bash
-    $ cd angular-instafeed
-    ```
+* In the HTML file you want to add Instafeed, you will need to add a div with the ID "instafeed".
 
-* Next, inside the project, you need to [register as a Instagram Developer}(https://instagram.com/developer/clients/manage/) to get your Client ID
+    ```
+    <div id="instafeed"></div>
+    ```
 
 * You will also need to get your user ID go run this program. To get your User ID, go to [this site](http://jelled.com/instagram/lookup-user-id) and enter your Instagram user name to get your user ID.
   *  Note: Your User ID is different than your User Name. Your User ID is a string that looks like ```12345678```
-* Once you have these, navigate to ```js/instagram/application.js``` and configure your ```client_id``` and your ```user_id```
-* Run the app anyway your usually run your web apps. Or open ```index.html``` in the browser.
+
+* In your main JavaScript file, you will need to require the module and invoke the function. The module takes two parameters, the first is your client ID and the second is your User ID.
+
+    ```
+    const instafeed = require('angular-instafeed');
+    instafeed([client_id], [user_id]);
+    ```
+
+* This package includes CSS styles that can be used. If you choose to use these, you will need to precomile your CSS files after importing the CSS from the Angular Instafeed
+
+* Finish setting up your build tools to precompile your JavaScript and CSS. For a working example take a look at my demo [Anngular Instafeed](https://github.com/JoeKarlsson1/Angular-Instafeed/tree/npm_example).
+    * I used Gulp, broswerify, and Rework for my demo.
 
 ## Tech
 Instafeed uses a number of open source projects:
 * [AngularJS] - HTML enhanced for web apps!
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
-* [Gulp] - the streaming build system
 
 ##Contributing
 1. Fork it!
