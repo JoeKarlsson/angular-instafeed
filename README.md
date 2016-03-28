@@ -13,32 +13,50 @@ Basic example usage of factory method to make a request to the instagram api to 
 
 ![instfeed-demo](https://cloud.githubusercontent.com/assets/4650739/13266964/ac6deb2e-da1e-11e5-9e80-773c19327caa.jpg)
 
-## Installing
+## Requirements
+Make sure you have Node installed locally [node.js](https://nodejs.org/en/)
 
-* Download and unpack [Angular Instafeed](https://github.com/JoeKarlsson1/Angular-Instafeed). Or alternatively checkout from source:
+This uses [gulp](http://gulpjs.com/) for build automation during development so you should have it installed globally
+
+## Installing
+* Download and unpack [Angular Instafeed](https://github.com/JoeKarlsson1/Angular-Instafeed/tree/npm_example). Or alternatively checkout from source:
 
     ```bash
     $ git clone https://github.com/JoeKarlsson1/Angular-Instafeed
     ```
-    
-    ```bash 
-    $ cd angular-instafeed
+
+* Checkout the NPM example branch to get the demo application.
+    ```bash
+    $ git checkout npm_example
     ```
 
-* Next, inside the project, you need to [register as a Instagram Developer}(https://instagram.com/developer/clients/manage/) to get your Client ID
+* Next, install all project dependencies.
+
+    ```bash
+    $ npm install
+    ```
 
 * You will also need to get your user ID go run this program. To get your User ID, go to [this site](http://jelled.com/instagram/lookup-user-id) and enter your Instagram user name to get your user ID.
   *  Note: Your User ID is different than your User Name. Your User ID is a string that looks like ```12345678```
-* Once you have these, navigate to ```js/instagram/application.js``` and configure your ```client_id``` and your ```user_id```
-* Run the app anyway your usually run your web apps. Or open ```index.html`` in the browser.
+
+* Once you have these, navigate to ```src/js/config.json/``` and configure your ```client_id``` and your ```user_id```
+    *__Note:__ You will need to change ```config_example.json``` name to ```config.json```
+
+* Run Gulp.
+
+    ```bash
+    $ gulp
+    ```
+
+* Open your browser to [http://localhost:8080/](http://localhost:8080/)
 
 ## Tech
 Instafeed uses a number of open source projects:
 * [AngularJS] - HTML enhanced for web apps!
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
 * [Gulp] - the streaming build system
-* [keymaster.js] - awesome keyboard handler lib by [@thomasfuchs]
-* [jQuery] - duh
+* [Gulp Connect] - Live reloading gulp package
+* [Rework] - CSS precomiler
+* [Browserify] - Bringing NPM javascript packages to the frontend.
 
 ##Contributing
 1. Fork it!
@@ -48,6 +66,11 @@ Instafeed uses a number of open source projects:
 5. Submit a pull request :D
 
 See more at www.callmejoe.net
+
+###Final Thoughts
+This was an experiment to experiment with creating NPM packages and with using NPM as a front end tool. I think NPM can be very useful for storing front end dependencies, however, I learned that it adds lots of complications in the form of needing lots of additional build tools.
+
+If this NPM package is helpful to you, I would love to hear your thoughts, and feedback. Thank you so much!
 
 ##License
 The MIT License (MIT)
