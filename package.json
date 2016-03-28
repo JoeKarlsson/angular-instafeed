@@ -8,14 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JoeKarlsson1/Angular-Instafeed.git"
+    "url": "git+https://github.com/JoeKarlsson1/Angular-Instafeed/tree/npm"
   },
   "keywords": [
     "Instagram",
     "Angular",
     "Insta",
     "photos",
-    "Instafeed"
+    "Instafeed",
+    "photogrid",
+    "list",
+    "grid",
+    "photo",
+    "frontend",
+    "front-end"
   ],
   "author": "Joe Carlson",
   "license": "ISC",
