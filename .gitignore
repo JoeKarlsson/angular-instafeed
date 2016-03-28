@@ -1,2 +1,4 @@
-public/js/config.json
 node_modules
+src/js/config.json
+public/js/*
+public/css/*
