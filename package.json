@@ -1,6 +1,6 @@
 {
   "name": "angular-instafeed",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Grid that displays your most recent Instagram photos.",
   "main": "public/js/instafeed.js",
   "scripts": {
