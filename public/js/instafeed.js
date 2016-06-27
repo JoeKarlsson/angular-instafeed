@@ -76,19 +76,26 @@ let createPhotoGrid = () => {
 module.exports = function(client_id, user_id) {
 
   createPhotoGrid();
+  let access_token = '464793431.64a12cb.9e7f0e0fd8ba4361be3205810e02cb73';
 
   let app = angular.module('instafeed', []);
 
   app.factory('InstagramAPI', ['$http', function($http) {
     return {
       fetchPhotos : function(callback) {
-        let endpoint = 'https://api.instagram.com/v1/users/' + user_id + '/media/recent/?';
+        let endpoint = 'https://api.instagram.com/v1/users/';
+        endpoint += user_id;
+        endpoint += '/media/recent/?';
         endpoint += '?count=99';
-        endpoint += '&client_id=' + client_id;
         endpoint += '&callback=JSON_CALLBACK';
-        $http.jsonp(endpoint).success(function(response) {
+        endpoint += '&access_token=' + access_token;
+        $http.jsonp(endpoint)
+        .success(function(response) {
           callback(response.data);
-        });
+        })
+        .error(function(xhr, status, err) {
+          console.error(status, err);
+        })
       }
     }
   }]);
@@ -103,3 +110,4 @@ module.exports = function(client_id, user_id) {
     });
   });
 }
+
