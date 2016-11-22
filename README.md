@@ -17,7 +17,7 @@ This project has been converted into an NPM package [Check it out here.](https:/
 ![instfeed-demo](https://cloud.githubusercontent.com/assets/4650739/13266964/ac6deb2e-da1e-11e5-9e80-773c19327caa.jpg)
 
 ## Installing
-* Download and unpack [Angular Instafeed](https://github.com/JoeKarlsson1/Angular-Instafeed). Or alternatively checkout from source:
+* Download and unpack [Angular Instafeed](https://github.com/JoeKarlsson/Angular-Instafeed). Or alternatively checkout from source:
 
     ```bash
     $ git clone https://github.com/JoeKarlsson1/Angular-Instafeed
@@ -43,4 +43,4 @@ This project has been converted into an NPM package [Check it out here.](https:/
 4. Push to the branch: ````git push origin my-new-feature````
 5. Submit a pull request :D
 
-See more at www.callmejoe.net
+See more at [www.callmejoe.net](https://www.callmejoe.net)
