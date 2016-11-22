@@ -13,12 +13,12 @@ Basic example usage of factory method to make a request to the instagram api to 
 
 You can check out my Angular Instafeed build demo here:
 
-[Anngular Instafeed Demo](https://github.com/JoeKarlsson1/Angular-Instafeed/tree/npm_example)
+[Anngular Instafeed Demo](https://github.com/JoeKarlsson/Angular-Instafeed/tree/npm_example)
 
 ### Reviews
 "Oh yes. Absolutely spot on ... works like a charm... The cleanest plugin i've ever worked with - clean, straightforward and works out of box." - tenzopro
 
-![Angular Instafeed](https://www.callmejoe.net/wp-content/uploads/2015/05/instfeed-demo.jpg)
+![instfeed-demo](https://cloud.githubusercontent.com/assets/4650739/13266964/ac6deb2e-da1e-11e5-9e80-773c19327caa.jpg)
 
 ## Installing
 
@@ -46,7 +46,7 @@ You can check out my Angular Instafeed build demo here:
 
 * This package includes CSS styles that can be used. If you choose to use these, you will need to precomile your CSS files after importing the CSS from the Angular Instafeed
 
-* Finish setting up your build tools to precompile your JavaScript and CSS. For a working example take a look at my demo [Anngular Instafeed](https://github.com/JoeKarlsson1/Angular-Instafeed/tree/npm_example).
+* Finish setting up your build tools to precompile your JavaScript and CSS. For a working example take a look at my demo [Anngular Instafeed](https://github.com/JoeKarlsson/Angular-Instafeed/tree/npm_example).
     * I used Gulp, broswerify, and Rework for my demo.
 
 ## Tech
