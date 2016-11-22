@@ -21,7 +21,7 @@ Make sure you have Node installed locally [node.js](https://nodejs.org/en/)
 This uses [gulp](http://gulpjs.com/) for build automation during development so you should have it installed globally
 
 ## Installing
-* Download and unpack [Angular Instafeed](https://github.com/JoeKarlsson1/Angular-Instafeed/tree/npm_example). Or alternatively checkout from source:
+* Download and unpack [Angular Instafeed](https://github.com/JoeKarlsson/Angular-Instafeed/tree/npm_example). Or alternatively checkout from source:
 
     ```bash
     $ git clone https://github.com/JoeKarlsson1/Angular-Instafeed
@@ -38,11 +38,44 @@ This uses [gulp](http://gulpjs.com/) for build automation during development so 
     $ npm install
     ```
 
-* You will also need to get your user ID go run this program. To get your User ID, go to [this site](http://jelled.com/instagram/lookup-user-id) and enter your Instagram user name to get your user ID.
-  *  Note: Your User ID is different than your User Name. Your User ID is a string that looks like ```12345678```
+* You will be creating a Instagram feed using the Instagram API and Angular 1.5. The feed will feature a switchable grid to change the layout of the photos on the page [see Style Guide below for details].
 
-* Once you have these, navigate to ```src/js/config.json/``` and configure your ```client_id``` and your ```user_id```
-    *__Note:__ You will need to change ```config_example.json``` name to ```config.json```
+Before you start building out your Angular web application, you will need to sign up to be an Instagram Developer:
+
+  1. First go [register as an Instagram Developer](https://instagram.com/developer/clients/manage/) to get your Client ID.
+
+  1. You will also need to get your user ID go run this program. To get your User ID, go to [this site](http://jelled.com/instagram/lookup-user-id) and enter your Instagram user name to get your user ID.
+
+    * Note: Your User ID is different than your User Name. Your User ID is a string that looks like `12345678`
+    * Note: If you do not have an Instagram account, find an account that you enjoy and use their photos for your feed.
+
+  1. Create an `index.html` with an HTML5 template in a new directory, and fire up `http-server` we will need this in order to get our auth token.
+    * Start your server, and copy the URL.
+    * Go to your Manage Clients on the Instagram API settings, click `Manage` on your project, then click on the `Security Tab` and enter your server URL into the Valid Redirect URIs.
+
+  1. This is the weird step - since we are making a client side web application, we need to get a [pre-approved access-token from Instagram](https://www.instagram.com/developer/authentication/). Here's how you do it:
+
+    * **Step One:** Direct your user to our authorization URL (Be sure to replace `CLIENT_ID` with your client ID and `REDIRECT_URI` with the url you pasted in the step above)
+
+          https://api.instagram.com/oauth/authorize/?client_id=CLIENT_ID&redirect_uri=REDIRECT_URI&response_type=token
+
+      At this point, we present the user with a login screen and then a confirmation screen where they grant your app’s access to their Instagram data. Note that unlike the explicit flow the response type here is “token”.
+
+    * **Step Two:** Receive the access_token via the URL fragment
+
+      Once the user has authenticated and then authorized your application, Instagram redirects them to your redirect_uri with the access_token in the url fragment. It will look like this:
+
+          http://your-redirect-uri#access_token=ACCESS-TOKEN
+
+      Simply grab the access_token off the URL fragment and you’re good to go. If the user chooses not to authorize your application, you’ll receive the same error response as in the explicit flow
+
+  1. Once you get your **user id** and your **access_token**, try hitting this route to get your most recent Instagram photos (Be sure to replace your `USER_ID` with your user ID and `ACCESS_TOKEN` with the access token you got in the step above).
+
+      https://api.instagram.com/v1/users/USER_ID/media/recent/?count=99&&callback=JSON_CALLBACK&access_token=ACCESS_TOKEN
+
+  1. Now, you're ready to starting building your Instagram Feed in Angular 2.0 :sparkles:
+
+    ## Style Guide
 
 * Run Gulp.
 
@@ -69,15 +102,15 @@ Instafeed uses a number of open source projects:
 
 See more at www.callmejoe.net
 
-###Final Thoughts
+### Final Thoughts
 This was an experiment to experiment with creating NPM packages and with using NPM as a front end tool. I think NPM can be very useful for storing front end dependencies, however, I learned that it adds lots of complications in the form of needing lots of additional build tools.
 
 If this NPM package is helpful to you, I would love to hear your thoughts, and feedback. Thank you so much!
 
-##License
+## License
 The MIT License (MIT)
 
-Copyright (c) 2016 Joseph Carlson
+Copyright (c) 2017 Joseph Carlson
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

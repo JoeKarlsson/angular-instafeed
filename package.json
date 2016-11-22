@@ -4,11 +4,12 @@
   "description": "Example app usage of the Angular Instafeed NPM package",
   "main": "public/js/instafeed.js",
   "scripts": {
+    "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JoeKarlsson1/Angular-Instafeed.git"
+    "url": "git+https://github.com/JoeKarlsson/Angular-Instafeed.git"
   },
   "keywords": [
     "Instagram",
@@ -17,12 +18,12 @@
     "photos",
     "Instafeed"
   ],
-  "author": "Joe Carlson",
+  "author": "Joe Karlsson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JoeKarlsson1/Angular-Instafeed/issues"
+    "url": "https://github.com/JoeKarlsson/Angular-Instafeed/issues"
   },
-  "homepage": "https://github.com/JoeKarlsson1/Angular-Instafeed#readme",
+  "homepage": "https://github.com/JoeKarlsson/Angular-Instafeed#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-browserify": "^0.5.1",
