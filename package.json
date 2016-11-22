@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JoeKarlsson1/Angular-Instafeed.git"
+    "url": "git+https://github.com/JoeKarlsson/Angular-Instafeed.git"
   },
   "keywords": [
     "Instagram",
@@ -20,9 +20,9 @@
   "author": "Joe Carlson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JoeKarlsson1/Angular-Instafeed/issues"
+    "url": "https://github.com/JoeKarlsson/Angular-Instafeed/issues"
   },
-  "homepage": "https://github.com/JoeKarlsson1/Angular-Instafeed#readme",
+  "homepage": "https://github.com/JoeKarlsson/Angular-Instafeed#readme",
   "devDependencies": {
   },
   "dependencies": {}
