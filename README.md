@@ -1,6 +1,8 @@
 # Angular Instafeed
 ## Personal Instagram Angular.js Feed
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/JoeKarlsson/angular-instafeed.svg)](https://greenkeeper.io/)
+
 Made by Joe Carlson - 2016
 See more at www.callmejoe.net
 
