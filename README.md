@@ -11,7 +11,7 @@ Basic example usage of factory method to make a request to the Instagram api to 
 
 This project has been converted into an NPM package [Check it out here.](https://www.npmjs.com/package/angular-instafeed)
 
-[Check out a live demo of this plugin here](https://https://www.joekarlsson.com//portfolio/instafeed-angular-js-instagram-feed/)
+[Check out a live demo of this plugin here](https://www.joekarlsson.com/portfolio/instafeed-angular-js-instagram-feed/)
 
 
 ### Reviews
@@ -25,7 +25,7 @@ This project has been converted into an NPM package [Check it out here.](https:/
 * Download and unpack [Angular Instafeed](https://github.com/JoeKarlsson/Angular-Instafeed). Or alternatively checkout from source:
 
     ```bash
-    $ git clone https://github.com/JoeKarlsson1/Angular-Instafeed
+    $ git clone https://github.com/JoeKarlsson/Angular-Instafeed
     ```
 
     ```bash
