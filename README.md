@@ -1,4 +1,5 @@
 # Angular Instafeed
+
 ## Personal Instagram Angular.js Feed
 
 Made by Joe Karlsson - 2018
@@ -23,14 +24,16 @@ This project has been converted into an NPM package [Check it out here.](https:/
 
 ## Installing
 
-* Download and unpack [Angular Instafeed](https://github.com/JoeKarlsson/Angular-Instafeed). Or alternatively checkout from source:
+* In your project directory
 
     ```bash
-    $ git clone https://github.com/JoeKarlsson/Angular-Instafeed
+    $ npm i angular-instafeed --save
     ```
 
-    ```bash
-    $ cd angular-instafeed
+* In the HTML file you want to add Instafeed, you will need to add a div with the ID "instafeed".
+
+    ```
+    <div id="instafeed"></div>
     ```
 
 * Next, inside the project, you need to [register as a Instagram Developer](https://instagram.com/developer/clients/manage/) to get your Client ID
