@@ -1,22 +1,27 @@
 # Angular Instafeed
 ## Personal Instagram Angular.js Feed
 
-Made by Joe Carlson - 2016
-See more at www.callmejoe.net
+Made by Joe Karlsson - 2018
+See more at www.joekarlsson.com
 
-Basic example usage of factory method to make a request to the instagram api to get a certian amount of images with an Angular.js switchable grid.
+Basic example usage of factory method to make a request to the Instagram api to get a certain amount of images with an Angular.js switchable grid.
 
-###Update
+
+### Update
+
 This project has been converted into an NPM package [Check it out here.](https://www.npmjs.com/package/angular-instafeed)
 
-[Check out a live demo of this plugin here](https://www.callmejoe.net/portfolio/instafeed-angular-js-instagram-feed/)
+[Check out a live demo of this plugin here](https://https://www.joekarlsson.com//portfolio/instafeed-angular-js-instagram-feed/)
+
 
 ### Reviews
+
 "Oh yes. Absolutely spot on ... works like a charm... The cleanest plugin i've ever worked with - clean, straightforward and works out of box." - tenzopro
 
 ![instfeed-demo](https://cloud.githubusercontent.com/assets/4650739/13266964/ac6deb2e-da1e-11e5-9e80-773c19327caa.jpg)
 
 ## Installing
+
 * Download and unpack [Angular Instafeed](https://github.com/JoeKarlsson/Angular-Instafeed). Or alternatively checkout from source:
 
     ```bash
@@ -66,13 +71,15 @@ Before you start building out your Angular web application, you will need to sig
 
   1. Now, you're ready to starting building your Instagram Feed in Angular 2.0 :sparkles:
 
-**Note:** If you are instested in installing this via NPM, I got cha covered. [Check it out here.](https://www.npmjs.com/package/angular-instafeed)
+**Note:** If you are interested in installing this via NPM, I got cha covered. [Check it out here.](https://www.npmjs.com/package/angular-instafeed)
 
-##Contributing
+
+## Contributing
+
 1. Fork it!
 2. Create your feature branch: ```git checkout -b my-new-feature```
 3. Commit your changes: ```git commit -am 'Add some feature'```
 4. Push to the branch: ````git push origin my-new-feature````
 5. Submit a pull request :D
 
-See more at [www.callmejoe.net](https://www.callmejoe.net)
+See more at [www.joekarlsson.com](https://www.joekarlsson.com)
