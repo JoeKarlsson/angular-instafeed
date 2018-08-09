@@ -69,7 +69,7 @@ Before you start building out your Angular web application, you will need to sig
     Once the user has authenticated and then authorized your application, Instagram redirects them to your redirect_uri with the access_token in the url fragment. It will look like this:
 
 		```bash
-      http://your-redirect-uri#access_token=ACCESS-TOKEN
+			http://your-redirect-uri#access_token=ACCESS-TOKEN
 		```
 
     Simply grab the access_token off the URL fragment and you’re good to go. If the user chooses not to authorize your application, you’ll receive the same error response as in the explicit flow
