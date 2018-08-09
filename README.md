@@ -2,6 +2,7 @@
 ## Personal Instagram Angular.js Feed
 
 Made by Joe Karlsson - 2018
+
 See more at www.joekarlsson.com
 
 Basic example usage of factory method to make a request to the Instagram api to get a certain amount of images with an Angular.js switchable grid.
@@ -75,7 +76,7 @@ Before you start building out your Angular web application, you will need to sig
 	```bash
     https://api.instagram.com/v1/users/USER_ID/media/recent/?count=99&&callback=JSON_CALLBACK&access_token=ACCESS_TOKEN
 	```
-	
+
 1. Now, you're ready to starting building your Instagram Feed in Angular :sparkles:
 
 **Note:** If you are interested in installing this via NPM, I got cha covered. [Check it out here.](https://www.npmjs.com/package/angular-instafeed)
