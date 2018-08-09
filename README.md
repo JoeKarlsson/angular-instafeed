@@ -52,17 +52,21 @@ Before you start building out your Angular web application, you will need to sig
 
 1. This is the weird step - since we are making a client side web application, we need to get a [pre-approved access-token from Instagram](https://www.instagram.com/developer/authentication/). Here's how you do it:
 
-  * **Step One:** Direct your user to our authorization URL (Be sure to replace `CLIENT_ID` with your client ID and `REDIRECT_URI` with the url you pasted in the step above)
+  * __Step One:__ Direct your user to our authorization URL (Be sure to replace `CLIENT_ID` with your client ID and `REDIRECT_URI` with the url you pasted in the step above)
 
-        https://api.instagram.com/oauth/authorize/?client_id=CLIENT_ID&redirect_uri=REDIRECT_URI&response_type=token
+	```bash
+    https://api.instagram.com/oauth/authorize/?client_id=CLIENT_ID&redirect_uri=REDIRECT_URI&response_type=token
+	```
 
     At this point, we present the user with a login screen and then a confirmation screen where they grant your app’s access to their Instagram data. Note that unlike the explicit flow the response type here is “token”.
 
-  * **Step Two:** Receive the access_token via the URL fragment
+  * __Step Two:__ Receive the access_token via the URL fragment
 
     Once the user has authenticated and then authorized your application, Instagram redirects them to your redirect_uri with the access_token in the url fragment. It will look like this:
 
-        http://your-redirect-uri#access_token=ACCESS-TOKEN
+		```bash
+      http://your-redirect-uri#access_token=ACCESS-TOKEN
+		```
 
     Simply grab the access_token off the URL fragment and you’re good to go. If the user chooses not to authorize your application, you’ll receive the same error response as in the explicit flow
 
