@@ -72,8 +72,10 @@ Before you start building out your Angular web application, you will need to sig
 
 1. Once you get your **user id** and your **access_token**, try hitting this route to get your most recent Instagram photos (Be sure to replace your `USER_ID` with your user ID and `ACCESS_TOKEN` with the access token you got in the step above).
 
+	```bash
     https://api.instagram.com/v1/users/USER_ID/media/recent/?count=99&&callback=JSON_CALLBACK&access_token=ACCESS_TOKEN
-
+	```
+	
 1. Now, you're ready to starting building your Instagram Feed in Angular :sparkles:
 
 **Note:** If you are interested in installing this via NPM, I got cha covered. [Check it out here.](https://www.npmjs.com/package/angular-instafeed)
